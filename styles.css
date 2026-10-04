@@ -4,8 +4,20 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 0;
 }
-h1 {
-  color:bisque;
+.content {
+  display: inline-block; 
+  background-color: rgba(10, 25, 47, 0.75);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 23px;
+  box-shadow: 5px 5px 10px rgba(102, 51, 153, 0.639) ;
+}
+h1,p {
+  color: azure;
   font-family: "Isometra", sans-serif;
 }
